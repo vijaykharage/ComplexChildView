@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import FirstModule
 
 class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .yellow
+        self.view.backgroundColor = .white
+        
+        let box = RoundView(frame: CGRect(x: 10, y: 10, width: 50, height: 50))
+        view.addSubview(box)
     }
     
 }

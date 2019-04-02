@@ -9,6 +9,39 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FirstModule.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F2716B0B224CF6B900FA6FB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2716B1F224CF6BC00FA6FB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2716B2A224CF6BC00FA6FB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2BC397A225349D600D92C57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2BC3982225349D600D92C57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

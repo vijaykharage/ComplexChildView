@@ -9,10 +9,21 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    let button = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .red
+        
+        view.addSubview(button)
+        button.frame = view.frame
+        button.setTitle("Go to next", for: .normal)
+        button.addTarget(self, action: #selector(goToNext), for: .touchUpInside)
+    }
+    
+    @objc func goToNext() {
+        self.navigationController?.pushViewController(SecondViewController(), animated: true)
     }
     
 }
